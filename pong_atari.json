@@ -1,0 +1,32 @@
+{
+  "game": "Pong",
+  "developer": "Atari",
+  "year": 1972,
+  "players": 2,
+  "screen": {
+    "width": 640,
+    "height": 480
+  },
+  "entities": {
+    "ball": {
+      "position": { "x": 320, "y": 240 },
+      "velocity": { "x": 5, "y": 2 },
+      "radius": 8
+    },
+    "paddle1": {
+      "position": { "x": 30, "y": 220 },
+      "size": { "width": 10, "height": 60 },
+      "velocity": 0
+    },
+    "paddle2": {
+      "position": { "x": 600, "y": 220 },
+      "size": { "width": 10, "height": 60 },
+      "velocity": 0
+    }
+  },
+  "score": {
+    "player1": 3,
+    "player2": 4
+  },
+  "state": "playing"
+}
